@@ -9,6 +9,11 @@ on:
   schedule:
     - cron: '17 9 * * *'
 
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
 safe-outputs:
   # Require PR creation instead of direct repository writes
   create-pull-request:
