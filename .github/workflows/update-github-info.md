@@ -27,6 +27,7 @@ network:
   allowed:
     - github.com
     - github.blog
+    - awesome-copilot.github.com
 
   blocked: []
 ---
@@ -39,6 +40,9 @@ Use these sources:
 - `notes/mona-notes.md`
 - GitHub Blog: https://github.blog/latest/
 - GitHub Changelog: https://github.blog/changelog/
+- awesome-copilot workflows: https://awesome-copilot.github.com/workflows/
+
+Use `web-fetch` to fetch https://awesome-copilot.github.com/workflows/ and include relevant workflow updates.
 
 Update `site/content/github-info.md` with concise,
 practical updates for readers and include source context when content comes
